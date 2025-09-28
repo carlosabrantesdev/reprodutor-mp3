@@ -31,5 +31,4 @@ Permite carregar playlists locais, exibir capa e informações da faixa a partir
 ├── index.html
 ├── style.css
 ├── script.js
-├── assets/
 └── README.md
