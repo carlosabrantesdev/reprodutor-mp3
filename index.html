@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>MP3 Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://i.ibb.co/qM8vq2LM/icon.png">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <section class="background">
+        <div class="player">
+            <h1 class="title">
+                MP3 Player
+            </h1>
+            <img src="https://i.ibb.co/s9SDYs3M/image.png" alt="" class="cover">
+            <div class="playBar">
+                <div class="progress"></div>
+                <div class="progress-mark"></div>
+            </div>
+            <div class="controls">
+                <button class="previous"><img src="https://i.ibb.co/cc6ghPWH/play-2.png" alt=""></button>
+                <button class="play"><img src="https://i.ibb.co/bTTsKBc/play-1.png" alt=""></button>
+                <button class="next"><img src="https://i.ibb.co/Mk4ZYpXq/play.png" alt=""></button>
+            </div>
+            <audio src="" class="audio"></audio>
+            <div class="playlist">
+                <input type="file" id="mp3Input" accept="audio/mpeg" multiple hidden>
+                <label for="mp3Input" class="upload-label">
+                    Adicionar músicas
+                </label>
+            </div>
+
+        </div>
+    </section>
+</body>
+
+</html>
