@@ -27,8 +27,9 @@ Permite carregar playlists locais, exibir capa e informações da faixa a partir
 
 ## Estrutura do Projeto
 
+```bash
 ├── index.html
 ├── style.css
 ├── script.js
-├── explicacaoDoFuncionamento.mp4
+├── assets/
 └── README.md
